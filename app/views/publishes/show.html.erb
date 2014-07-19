@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @publish.user_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @publish.Title %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @publish.message %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @publish.url %>
+</p>
+
+<p>
+  <strong>Topicname:</strong>
+  <%= @publish.topicname %>
+</p>
+
+<%= link_to 'Edit', edit_publish_path(@publish) %> |
+<%= link_to 'Back', publishes_path %>
